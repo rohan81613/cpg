@@ -1,0 +1,218 @@
+body {
+    background: #333333dd;
+    color: #65a0b6;
+    font-family: sans-serif;
+  }
+  .navbar{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0px;
+    background-color: #9ab0afd9;
+  }
+  .navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .logo a{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    font-family: "Anta", sans-serif;
+    font-weight: 500;
+    font-style:normal;
+    text-decoration: none;
+  }
+  .navdiv li{
+    list-style: none;
+    display: inline-block;
+  }
+  .navdiv li a{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight:500;
+    margin-right: 45px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .navdiv  li a:hover {
+    color: #ffffff;
+  }
+  .navdiv button{
+    background-color: rgb(170, 148, 35);
+    margin-left: 10px;
+    border-radius: 8px;
+    padding: 10px;
+    width: 80px;
+    cursor: pointer;
+    border: 2px;
+    
+  }
+  .navdiv button a{
+    color: white;
+    font-weight:600;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  .navdiv button:hover{
+    background-color: #c3c379;
+  }
+  h2 {
+    color: #fff;
+    font-size: 125%;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #999;
+    text-decoration: none;
+  }
+  
+  .login {
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -184px 0px 0px -155px;
+    background: rgba(0,0,0,0.2);
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    box-shadow: 0px 1px 0px rgba(0,0,0,0.3),inset 0px 1px 0px rgba(255,255,255,0.07)
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 250px;
+    padding: 15px 0px;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    color: #fff;
+    margin: 0.25em 0;
+  }
+  input[type=checkbox] {
+    display: none;
+  }
+  
+  label {
+    display: block;
+    position: absolute;
+    margin-right: 10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: transparent;
+    content: "";
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    border: 3px solid #46485c;
+  }
+  
+  #remember:checked ~ label[for=remember] {
+    background: #b5cd60;
+  }
+  
+  input[type="submit"] {
+    background: #b5cd60;
+    border: 0;
+    font-size: 100%;
+    width: 250px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #eee;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  input[type="submit"]:hover {
+    background: #16aa56;
+  }
+  
+  .forgot {
+    margin-top: 20px;
+    display: block;
+    font-size: 86%;
+    text-align: center;
+  }
+  .forgot:hover {
+    color: #6d7781;
+  }
+  
+  .remember {
+    padding: 16px 0px;
+    font-size: 12px;
+    text-indent: 25px;
+    line-height: 15px;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #46485c;
+  }
+  
+  [placeholder]:focus::-webkit-input-placeholder {
+    transition: all 0.2s linear;
+    transform: translate(10px, 0);
+    opacity: 0;
+  }
+  
+    
+    .footer{
+    background:#000;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    margin-top: 40%;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:#fff;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+    }
